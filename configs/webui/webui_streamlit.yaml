@@ -347,6 +347,14 @@ model_manager:
                 model_ckpt:
                     file_name:  "Stable Diffusion v1.5.ckpt"
                     download_link:  "https://huggingface.co/ZeroCool94/stable-diffusion-v1-5/resolve/main/Stable%20Diffusion%20v1-5-Pruned-ema%20only.ckpt"
+                    
+        stable_diffusion_2_1:
+            model_name:     "Stable Diffusion v2.1"
+            save_location:  "./models/custom"
+            files:
+                model_ckpt:
+                    file_name:  "Stable Diffusion v2-1.ckpt"
+                    download_link:  "https://huggingface.co/stabilityai/stable-diffusion-2-1/resolve/main/v2-1_768-ema-pruned.ckpt"
 
         gfpgan:
             model_name:     "GFPGAN"
